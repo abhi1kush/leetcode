@@ -1,5 +1,5 @@
 string manacher(string & s){
-	//Transforming string "abc" to "^#a#b#a$"
+	//Transforming string "abc" to "^#a#b#c$"
 	string ss = "^#";
 	for(auto m:s){
 		ss += m;
